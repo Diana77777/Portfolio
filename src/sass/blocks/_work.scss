@@ -1,0 +1,55 @@
+.work {
+  padding-top: 137px;
+  &__wrapper {
+    padding: 60px 11px 0 11px;
+    display: grid;
+    grid-template-columns: repeat(4, 270px);
+    column-gap: 13px;
+    row-gap: 13px;
+  }
+  &__item {
+    position: relative;
+    width: 270px;
+    height: 270px;
+    border: 1px solid #000000;
+    &-icon1 {
+      img {
+        padding-top: 25px;
+      }
+    }
+    &-icon3 {
+      img {
+        padding-top: 8px;
+        padding-bottom: 13px;
+      }
+    }
+  }
+
+  .soc {
+    padding-top: 20px;
+    padding-bottom: 15px;
+    margin: 0;
+  }
+  .soc1 {
+    width: 82px;
+    padding: 20px 0 15px 0;
+    margin: 0;
+  }
+  .soc2 {
+    padding-top: 4px;
+  }
+
+  &__content {
+    padding: 30px 30px 25px 30px;
+  }
+
+  &__descr {
+    height: 94px;
+    width: 211px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+
+    color: #000000;
+  }
+}

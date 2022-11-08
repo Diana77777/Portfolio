@@ -9,3 +9,8 @@ hamburger.addEventListener("click", () => {
 close.addEventListener("click", () => {
   menu.classList.remove("active");
 });
+
+const subtitles = document.querySelectorAll(".scroll__subtitle"),
+  dividers = document.querySelectorAll(".scroll__divider span");
+
+subtitles.forEach((item) => {});

@@ -1,6 +1,7 @@
 .scroll {
   position: absolute;
   width: 1140px;
+  height: 400px;
   padding: 120px 0 120px 0;
   display: grid;
   grid-template-columns: repeat(3, 350px);
@@ -17,12 +18,10 @@
     margin-top: 20px;
     background: #e8e4de;
     border-radius: 4px;
-    &-alt {
-      width: 350px;
-      margin-top: -14px;
-      position: absolute;
-      height: 14px;
-      background: #ffa501;
+    span {
+      display: block;
+      height: 100%;
+      background-color: $main-color;
       border-radius: 4px;
     }
   }
